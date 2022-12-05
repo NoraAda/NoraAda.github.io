@@ -163,7 +163,8 @@ So, if we want to add more resources, we need to create a transaction to either 
 
 ## Multiple Test Cases:
 
-Let's check that the program workes correctly after downloading. Please open the terminal and test these few differebt user inputs:
+Let's check that the program workes correctly after downloading.  
+Please open the terminal and test these few different user inputs:
 
 ### Test 1:
 
