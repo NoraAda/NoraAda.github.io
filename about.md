@@ -3,14 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hello I am Puppycat, PhD. I am a Python master.
+Hello, I am Nora. I am a Python apprentice!
 
 ## More information
 
-My favorite food is spinach. I like to SCREAM when I don't get my way but that's okay because I'm cute.
+I like math, economics, and computer science!
 
-![](/images/puppycat.jpg){:height="300px"}
+![](https://avatars.githubusercontent.com/u/107182340?s=400&u=036ac1ad1101a2043da87bf2c31081382c249e11&v=4){:height="300px"}
 
 ### Contact me
 
-[puppycat@puppycat.org](mailto:puppycat@puppycat.org)
+[adanora@g.ucla.edu](mailto:adanora@g.ucla.edu)
