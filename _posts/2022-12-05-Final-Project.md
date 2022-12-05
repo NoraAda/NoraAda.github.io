@@ -8,8 +8,8 @@ author: Nora Adadurova
 
 ## Hello Everyone!
 
-This post will be about demonstrating how to use my Selenium-Based Manga Monitor, as well as the building process!
-If you would like to follow along, my code is available in my GitHub repository: https://github.com/NoraAda/PIC16B/tree/main/Final%20Project 
+This post will be about demonstrating how to use my Selenium-Based Manga Monitor, as well as the building process!  
+If you would like to follow along, this code is fully available in my GitHub repository: https://github.com/NoraAda/PIC16B/tree/main/Final%20Project 
 
 ## Personal Insight into the project:
 
