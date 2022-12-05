@@ -29,7 +29,7 @@ Also, for the website with similar structure, the problem uses CSS objects and c
 
 ## Multiple Test Cases:
 
-Let's check that the program workes correctly after downloading. Please open the terminal and test this few user inputs:
+Let's check that the program workes correctly after downloading. Please open the terminal and test these few differebt user inputs:
 
 ### Test 1:
 
@@ -37,7 +37,7 @@ Let's check that the program workes correctly after downloading. Please open the
 - yes
 - 2  
 
-![Test1]({{ site.baseurl }}"/images/Test #1.png")
+![Test1]({{ site.baseurl }}/images/Test1.png)
 
 ### Test 2:
 
