@@ -68,31 +68,35 @@ Let's check that the program workes correctly after downloading. Please open the
 
 - Honey Lemon
 - [just press enter button]
-- 3
+- 3  
+
+![Test3]({{ site.baseurl }}/images/Test3.png)
 
 ### Test 4:
 
-- Honey Lemon
+- honey lemon
 - Yes
-- 20
+- 20  
+
+![Test4]({{ site.baseurl }}/images/Test4.png)
 
 ### Test 5:
 
 - the gamer
 - yeh
-- 300
+- 300  
 
 ### Test 6:
 
 - My Giant Nerd Boyfriend
 - Y
-- 100
+- 100  
 
 ### Test 7:
 
 - hl
 - Yeah
-- 0
+- 0  
 
 ## Conclusion:
 
