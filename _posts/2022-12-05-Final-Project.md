@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Post: Final Project Jornal"
+title:  Blog Post: Final Project Journal
 categories: blog assignment
 permalink: posts/blog-final-project
 author: Nora Adadurova
