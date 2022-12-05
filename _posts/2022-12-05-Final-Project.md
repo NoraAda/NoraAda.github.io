@@ -6,17 +6,14 @@ permalink: posts/blog-final-project
 author: Nora Adadurova
 ---
 
-## Hello Everyone!
 
 This post will be about demonstrating how to use my Selenium-Based Manga Monitor, as well as the building process!
 If you would like to follow along, my code is available in my GitHub repository: https://github.com/NoraAda/PIC16B/tree/main/Final%20Project
 And, also, the general link to my GitHub repository: https://github.com/NoraAda/PIC16B 
 
-## Personal Insight into the project:
 
 This final project was a unique experience for me, since, before this project, I always followed someone's instructions for all of the programs. So, before this experience, I have never had creative control. Therefore, for my final project, I decided to choose something personal and fun to do. As a result, I decided to make a project about searching for new chapters of manga in the top 5 websites I use in my day-to-day life. Choosing to make a project about a silly topic like searching for new chapters in manga made me feel that finally, I have a connection between my academic and non-academic interests. Moreover, when I was able to develop my own idea from scratch and the program started to slowly work according to my own idea, it reassured me that I did grow and learn a lot in the past few years and now can independently work on projects using my creativity and available online resources. In addition, this connection motivated me to finish its first version for the class and hopefully will inspire me to further work on it during the upcoming Christmas break. I hope that in a few months I can make it into something bigger and can share it with my friends' group so they can also benefit from it.
 
-## Technical component:
 
 It is an example of a python script which can be called through a terminal. Also, it uses users input in the terminal and gives output in the terminal as well. (screenshot) The first input of the program takes the title of needed manga. The input is processed by using text processing by regular expression to prepare the input for the search algorithm. This means that we disregard all non letter characters and transform it into the form convenient for our search algorithm.
 
@@ -28,49 +25,42 @@ Also, in the text found on the informational page for manga, it is important to 
 
 Also, for the website with similar structure, the problem uses CSS objects and correcting direct links. But in the second type (WEBTOON) of the website more text processing is needed since in order to find the correct link to the manga the program needs to know genera. So, if we want to add more resources, we need to create a transaction to either direct link or search and then we can use existing functionality of the program. Hence, this program can be expanded pretty easily and for an unlimited number of websites.
 
-## Multiple Test Cases:
 
-### Test 1:
 
 - Honey Lemon
 - yes
 - 2
 
-### Test 2:
+
 
 - Honey Lemon
 - no
 
-### Test 3:
+
 
 - Honey Lemon
 - [just press enter button]
 - 3
 
-### Test 4:
 
 - Honey Lemon
 - Yes
 - 20
 
-### Test 5:
-
 - the gamer
 - yeh
 - 300
 
-### Test 6:
+
 
 - My Giant Nerd Boyfriend
 - Y
 - 100
 
-### Test 7:
 
 - hl
 - Yeah
 - 0
 
-## Conclusion:
 
 To sum up, I enjoyed this first personal project because I can see myself using and improving it in the future due to my interest in manga. Moreover, being a practical person, I have struggled for a while with my classes at UCLA being too theoretical and not connecting to my non-academic interests or real life. Hence, this little project strengthen my confidence and interest in continuing to study since it demonstrated that this class and the past classes prepared me to work independently and gave me the necessary tools to make my ideas come true even if they are silly like helping to find chapter updates for a manga. Also, next, I hope to do a different project for a more serious real-life topic/issue with friends or by myself over the upcoming winter.
