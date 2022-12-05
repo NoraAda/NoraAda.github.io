@@ -21,9 +21,20 @@ It is an example of a python script which can be called through a terminal. Also
 
 The second input, devids users into two categories: if the user says any word starts from any letter not equal to N then we interpret his answer as Yes, the next program asks for the third input such as number of characters read before. If the answer had N as a first letter then the program interprets it as No and does not ask for chapters and assume that 0 characters was read. Also, it is important to note that this program uses Selenium. Selenium is an open source umbrella project for a range of tools and libraries aimed at supporting browser automation. It provides a playback tool for authoring functional tests across most modern web browsers, without the need to learn a test scripting language (Selenium IDE). It also provides a test domain-specific language (Selenese) to write tests in a number of popular programming languages, including JavaScript (Node.js), C#, Groovy, Java, Perl, PHP, Python, Ruby and Scala. Selenium runs on Windows, Linux, and macOS. But since in this class we used scrapy for homework #2, my first idea was to use scrapy but due to the website's protection called CloudFlare it did not work properly. Hence, I decided to use Selenium to avoid detection by CloudFlare.
 
+So, in order for my program to work, the users needs to complite these import commands:
+
+```python
+# all needed imports
+from pyvirtualdisplay import Display
+from selenium import webdriver
+import selenium
+import re
+import time
+```
+
 Next, I have two choices: to use Selenium to see all its operations or to download the Xvfb package to hide the process and use virtual display. 
 
-```
+```python
 # prepare webdriver
 selenium_spider, virtual_display = start_or_reload_display(driver_name='Chrome', detach_display=False)
 ```
