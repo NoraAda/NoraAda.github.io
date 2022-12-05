@@ -21,7 +21,14 @@ It is an example of a python script which can be called through a terminal. Also
 
 The second input, devids users into two categories: if the user says any word starts from any letter not equal to N then we interpret his answer as Yes, the next program asks for the third input such as number of characters read before. If the answer had N as a first letter then the program interprets it as No and does not ask for chapters and assume that 0 characters was read. Also, it is important to note that this program uses Selenium. Selenium is an open source umbrella project for a range of tools and libraries aimed at supporting browser automation. It provides a playback tool for authoring functional tests across most modern web browsers, without the need to learn a test scripting language (Selenium IDE). It also provides a test domain-specific language (Selenese) to write tests in a number of popular programming languages, including JavaScript (Node.js), C#, Groovy, Java, Perl, PHP, Python, Ruby and Scala. Selenium runs on Windows, Linux, and macOS. But since in this class we used scrapy for homework #2, my first idea was to use scrapy but due to the website's protection called CloudFlare it did not work properly. Hence, I decided to use Selenium to avoid detection by CloudFlare.
 
-Next, I have two choices: to use Selenium to see all its operations or to download the Xvfb package to hide the process and use virtual display. It is possible on Linux and Macrasoft but hard for IOS. Main objective of this program is working with is open program using selenium. Each website is treated and processed separately to collect needed information about the manga in question. The processing is dependent on the CSS structure of the website and the CSS elements. So, we go from the home page of the website to the manga information page (using the adopted page) to collect the needed information about characters’ updates. If a manga information page is not found, the program uses search and selects the first option in the search assuming that it is the most relevant to the user’s demand. But if the program uses search and there are no matches then the program outputs “this manga is not presented on” + name of the website and comments such as “you can still try to find other mangas.” Furthermore, optionally in the program can use a CSS object with a header to identify cases when manga was not found on the website but it is not mandatory since the program will determine that check was failed for this object.
+Next, I have two choices: to use Selenium to see all its operations or to download the Xvfb package to hide the process and use virtual display. 
+
+```
+# prepare webdriver
+selenium_spider, virtual_display = start_or_reload_display(driver_name='Chrome', detach_display=False)
+```
+
+It is possible on Linux and Macrasoft but hard for IOS. Main objective of this program is working with is open program using selenium. Each website is treated and processed separately to collect needed information about the manga in question. The processing is dependent on the CSS structure of the website and the CSS elements. So, we go from the home page of the website to the manga information page (using the adopted page) to collect the needed information about characters’ updates. If a manga information page is not found, the program uses search and selects the first option in the search assuming that it is the most relevant to the user’s demand. But if the program uses search and there are no matches then the program outputs “this manga is not presented on” + name of the website and comments such as “you can still try to find other mangas.” Furthermore, optionally in the program can use a CSS object with a header to identify cases when manga was not found on the website but it is not mandatory since the program will determine that check was failed for this object.
 
 Also, in the text found on the informational page for manga, it is important to get the number of characters in the manga. This is important since we want to provide the user with the number of characters they still have left to read. This adds additional logic since we might get negative numbers. For example, because users made a mistake writing number of characters (for example 300 instead of 30), or the website is not as relevant for this manga so it is late on updates for this title, or if a program found the most relevant manga to the search but it is a wrong manga and has less characters. Hence, while building I accounted for this cases. In case, if it is a negative number of characters, “unfortunately check for new chapters failed on url” and as a comment program says the negative difference detected and the name of the manga found for the case if it is a wrong manga found.
 
@@ -42,7 +49,9 @@ Let's check that the program workes correctly after downloading. Please open the
 ### Test 2:
 
 - Honey Lemon
-- no
+- no  
+
+![Test2]({{ site.baseurl }}/images/Test2.png)
 
 ### Test 3:
 
