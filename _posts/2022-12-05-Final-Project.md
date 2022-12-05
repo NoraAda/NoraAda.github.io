@@ -202,17 +202,23 @@ Let's check that the program workes correctly after downloading. Please open the
 - yeh
 - 300  
 
+![Test5]({{ site.baseurl }}/images/Test5.png)
+
 ### Test 6:
 
-- My Giant Nerd Boyfriend
+- Nerd Boyfriend (meaning My Giant Nerd Boyfriend)
 - Y
 - 100  
 
+![Test6]({{ site.baseurl }}/images/Test6.png)
+
 ### Test 7:
 
-- hl
+- hl (meaning Honey Lemon)
 - Yeah
 - 0  
+
+![Test7]({{ site.baseurl }}/images/Test7.png)
 
 ## Conclusion:
 
